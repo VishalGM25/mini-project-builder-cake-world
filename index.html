@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-<script src="/script.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cake World</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav"></div>
+      <img src="assets/cake.png" alt="" class="nav-img-center" />
+    </header>
+    <section>
+      <div class="prices">
+        <img src="assets/list_template.png" alt="" class="list-board" />
+        <div class="item-price">
+          <h3>Prices</h3>
+          <p class="item"><span>Chocolate</span>.........300</p>
+          <p class="item"><span>Strawberry</span>.......100</p>
+          <p class="item"><span>ButterScotch</span>...200</p>
+          <p class="item"><span>Vannila</span>.............250</p>
+          <p class="item"><span>Redvelvet</span>.......350</p>
+        </div>
+      </div>
+      <div class="cake">
+        <img src="assets/candle.png" alt="candles" class="candles" />
+        <div id="box1" class="redvelvet"></div>
+        <div id="box2" class="vannila"></div>
+        <div id="box3" class="butterScotch"></div>
+        <div id="box4" class="strawberry"></div>
+        <div id="box5" class="chocolate"></div>
+      </div>
+      <div class="bill-counter">
+        <img src="assets/list_template.png" alt="" class="list-board" />
+        <h3>BILL</h3>
+        <div class="bill">
+          <p class="bill-chocolate"></p>
+          <p class="bill-strawberry"></p>
+          <p class="bill-butterscotch"></p>
+          <p class="bill-vannila"></p>
+          <p class="bill-redvelvet"></p>
+          <p class="total-amount"></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="button-container">
+        <button class="button btn-chocolate">chocolate</button>
+        <button class="button btn-strawberry">strawberry</button>
+        <button class="button btn-butterScotch">butterscotch</button
+        ><button class="button btn-vannila">vannila</button>
+        <button class="button btn-redvelvet">redvelvet</button
+        ><button class="button btn-buy">BUY</button>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
 </html>

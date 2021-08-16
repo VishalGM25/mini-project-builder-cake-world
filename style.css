@@ -1,11 +1,131 @@
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 
-*{
-    margin:0;
-    padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /* Fill your code*/
-
+.nav {
+  width: 100%;
+  height: 20vh;
+  background: #753422;
+  position: relative;
+}
+.nav-img-center {
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  object-fit: contain;
+  background-color: black;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
+}
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 50px;
+  background-color: #b980f0;
+}
+.list-board {
+  width: 300px;
+}
+.prices {
+  position: relative;
+}
+.item-price {
+  position: absolute;
+  top: 12%;
+  left: 15%;
+  font-size: 1.5rem;
+}
+.item-price h3,
+.bill h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+.item-price p,
+.bill p {
+  padding: 5px;
+}
+.bill-counter {
+  position: relative;
+}
+.bill-counter h3 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 2rem;
+}
+.bill {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  object-fit: contain;
+}
+.cake {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#box1 {
+  height: 30px;
+  width: 100px;
+  background-color: orange;
+  border-radius: 10%;
+}
+#box2 {
+  height: 30px;
+  width: 125px;
+  background-color: palevioletred;
+  border-radius: 10%;
+}
+#box3 {
+  height: 30px;
+  width: 150px;
+  background-color: lightgoldenrodyellow;
+  border-radius: 10%;
+}
+#box4 {
+  width: 175px;
+  height: 30px;
+  background-color: whitesmoke;
+  border-radius: 10%;
+}
+#box5 {
+  width: 200px;
+  height: 30px;
+  background-color: rgb(172, 16, 16);
+  border-radius: 10%;
+}
+.candles {
+  height: 60px;
+  position: relative;
+  top: 12px;
+  display: none;
+}
+.button-container {
+  display: flex;
+  background-color: #753422;
+  justify-content: space-around;
+  padding: 50px;
+}
+.button {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5%;
+  text-transform: capitalize;
+  color: whitesmoke;
+  background-color: #b980f0;
+}
+.btn-buy {
+  background-color: yellowgreen;
+}
